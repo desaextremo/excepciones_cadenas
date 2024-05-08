@@ -31,7 +31,7 @@ finally:
 
 * EL bloque **try** es el bloque con las sentencias que quieres ejecutar. Sin embargo, podrían llegar a haber errores de ejecución  y el bloque se dejará de ejecutarse.
 * El bloque **except** se ejecutará cuando el bloque try falle debido a un error. Este bloque contiene sentencias que generalmente nos dan un contexto de lo que salió mal en el bloque try.
-Podrías usar except sin especificar el <tipo de error>. Pero no es una práctica recomendable, ya que no estarás al tanto de los tipos de errores que puedan ocurrir.[Ejemplo](captura_dos.py)
+Podrías usar except sin especificar el &lt;tipo de error&gt;. Pero no es una práctica recomendable, ya que no estarás al tanto de los tipos de errores que puedan ocurrir.[Ejemplo](captura_dos.py)
 
 * Siempre deberías de mencionar el tipo de error que se espera, como una excepción dentro del bloque except dentro de **&lt;tipo de error&gt;** .
   
